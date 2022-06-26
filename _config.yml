@@ -21,11 +21,12 @@
 title: Vaibhav Upreti
 email: vaibhav.upreti16@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio website made with Jekyll.
+  Portfolio website Powered by Jekyll.
 baseurl: "/jekyll_blog" # the subpath of your site, e.g. /blog
 url: "https://vaibhavupreti.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vaibhav__upreti
 github_username:  VaibhavUpreti
+linkedin_username: vaibhav-upreti-739b0421a
 
 # Build settings
 # Removing minima theme - not using a gem based theme
@@ -33,6 +34,19 @@ github_username:  VaibhavUpreti
 plugins:
   - jekyll-feed
 
+
+# author Field is used by minima but not default
+
+author : Vaibhav Upreti
+  
+
+# Fields not used by jekyll
+copyright : vaibhavupreti
+
+
+# title-logo is avocado logo 
+
+title-logo : /images/avo.ico
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
