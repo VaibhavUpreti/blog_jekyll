@@ -5,5 +5,7 @@
 layout: home-blog
 title: "Blog"
 category: blog
-image: 08.jpg
+image: /images/banner.jpeg
 ---
+
+![]({{ page.image | relative_url }})

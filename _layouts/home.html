@@ -3,11 +3,14 @@ layout: default
 ---
 
 <div class="home">
+<!-- Displaying title on the page -->
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+<!-- Inculding Content -->
 
   {{ content }}
+<!-- Inculding POSTS -->
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
@@ -27,6 +30,7 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+<!-- Inculding RSS feed for home -->
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
