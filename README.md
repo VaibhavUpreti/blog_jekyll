@@ -1,2 +1,3 @@
-# jekyll_blog
-Static blog made with jekyll
+THeme for jekyll
+======
+Personal portfolio
