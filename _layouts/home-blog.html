@@ -23,7 +23,6 @@ layout: default
       {%- if post.category== "blog" -%}
 
       <li>
-
         {%- if post.image -%}
         <img src="{{- post.image | relative_url -}}" alt="" class="blog-image">
 
@@ -32,8 +31,6 @@ layout: default
 
         <img src="{{- defImg | relative_url -}}" alt="" class="blog-image">
         {%- endif -%}
-
-
 
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
