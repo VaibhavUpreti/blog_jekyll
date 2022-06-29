@@ -1,43 +1,54 @@
 ---
 layout: default
+image: "/images/blogimg.jpeg"
 ---
 
-<div class="home">
+
 <!-- Displaying title on the page -->
   {%- if page.title -%}
+
     <h1 class="page-heading">{{ page.title }}</h1>
+
   {%- endif -%}
 <!-- Inculding Content -->
 
   {{ content }}
 <!-- Inculding POSTS -->
+<h1 class="post-list-heading">Hey 👋, I'm Vaibhav Upreti. </h1>
+<h1 class="post-list-heading"  >Welcome! </h1>
+
+
+
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h1>Latest Posts</h1>
+    <img src="https://user-images.githubusercontent.com/85568177/176436868-9afe728c-80b6-4026-a93e-ebbfa234eb2c.jpeg
+" alt="" class="cover-image">
+<br><br><br>
     <ul class="post-list">
 
 
       {%- for post in site.posts -%}
       <li>
-
+<!-- Post Image on main page-->
         {%- if post.image -%}
-        <img src="{{- post.image | relative_url -}}" alt="" class="blog-image">
+      <a href="{{- post.url | relative_url -}}"><img src="{{- post.image | relative_url -}}" alt="{{- post.url | relative_url -}}" class="blog-image"></a> 
 
         {%- else -%}
-        {%- assign defImg = "/images/default-img.jpge" -%}
+        <a href="{{- post.url | relative_url -}} ">{%- assign defImg = "/images/default-img.jpge" -%}</a>
 
-        <img src="{{- defImg | relative_url -}}" alt="" class="blog-image">
+      <a href="{{- post.url | relative_url -}} "><img src="{{- defImg | relative_url -}}" alt="{{- post.url | relative_url -}}" class="blog-image"></a> 
         {%- endif -%}
 
 
 
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <div class=" post-card" >
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            <h3> {{ post.title | escape }} </h3>
           </a>
-        </h3>
+        </div>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
@@ -46,7 +57,7 @@ layout: default
     </ul>
 <!-- Inculding RSS feed for home -->
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <h3 class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></h3>
   {%- endif -%}
 
 </div>

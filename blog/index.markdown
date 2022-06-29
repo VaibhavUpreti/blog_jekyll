@@ -7,5 +7,4 @@ title: "Blog"
 category: blog
 image: /images/blogimg.jpeg
 ---
-
-![]({{ page.image | relative_url }})
+   <img src="{{- page.image | relative_url -}}" alt="" class="cover-image">

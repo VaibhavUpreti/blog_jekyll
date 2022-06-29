@@ -196,7 +196,12 @@
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+
+  width: 100%;
+  height: 100px;
+
+  
+  @include relative-font-size(2.0);
 }
 
 .post-list {
@@ -218,7 +223,13 @@
   @include relative-font-size(1.5);
 }
 
+.post-card{
 
+  width: 100%;
+  height: 200px;
+
+
+}
 
 /**
  * Posts
@@ -265,6 +276,12 @@
   }
 }
 
+.cover-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+
+}
 
 .banner-image {
   width: 100%;
@@ -274,8 +291,8 @@
 }
 
 .blog-image {
-  width: 75px;
-  height: 75px;
+  width: 200px;
+  height: 175px;
   object-fit: cover;
   float: right;
 }
