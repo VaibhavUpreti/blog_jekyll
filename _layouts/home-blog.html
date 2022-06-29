@@ -3,25 +3,42 @@ layout: default
 ---
 
 <div class="home">
+  <!-- Displaying title on the page -->
+
   {%- if page.title -%}
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
   {%- endif -%}
+  <!-- INcluding Content -->
   {{ content }}
+<!-- INcluding POSTS -->
+
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in site.posts -%}
 
+    <!-- Rendering BLOGS POSTS on the "Blog" channel  -->
+
       {%- if post.category== "blog" -%}
+
       <li>
+        {%- if post.image -%}
+        <img src="{{- post.image | relative_url -}}" alt="" class="blog-image">
+
+        {%- else -%}
+        {%- assign defImg = "/images/default-img.jpge" -%}
+
+        <img src="{{- defImg | relative_url -}}" alt="" class="blog-image">
+        {%- endif -%}
+
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <div class=" post-card" >
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            <h3> {{ post.title | escape }} </h3>
           </a>
-        </h3>
+        </div>
 
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
@@ -33,7 +50,6 @@ layout: default
 
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
