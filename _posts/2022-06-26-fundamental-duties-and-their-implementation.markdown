@@ -14,7 +14,7 @@ Part IVA of the Indian Constitution deals with Fundamental Duties. As of now, t
 
 Source: 
 
-![image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5417f069-bcb5-4bc9-849a-73db140a60ff/Untitled.png)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5417f069-bcb5-4bc9-849a-73db140a60ff/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220711%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220711T155930Z&X-Amz-Expires=86400&X-Amz-Signature=3e66077bed0fcc9bf5126c9d29549fab94709cc3d79fb16df5db391a16a4ab04&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 - The Fundamental Duties of citizens were added to the Constitution by the 42nd Amendment in 1976, upon the recommendations of the Swaran Singh Committee that was constituted by the government earlier that year.
 
 **SS: As a chef (or critic), do you consider yourself an artist?**
