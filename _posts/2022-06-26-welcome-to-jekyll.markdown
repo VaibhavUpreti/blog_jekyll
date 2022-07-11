@@ -1,12 +1,37 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-06-26 00:21:17 +0530
+title:  "FUNDAMENTAL DUTIES AND THEIR IMPLEMENTATION!"
+date:   2022-07-11 00:21:17 +0530
 categories: jekyll update
-image: /images/1.jpeg
+image: /images/fundamental-duties.png
 ---
 
 ![]({{ page.image | relative_url }})
+
+# TOPIC : **Fundamental Duties and their implimentation**
+
+Part IVA of the Indian Constitution deals with Fundamental Duties. As of now, there are 11 Fundamental duties.
+
+Source: 
+
+![image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5417f069-bcb5-4bc9-849a-73db140a60ff/Untitled.png)
+- The Fundamental Duties of citizens were added to the Constitution by the 42nd Amendment in 1976, upon the recommendations of the Swaran Singh Committee that was constituted by the government earlier that year.
+
+**SS: As a chef (or critic), do you consider yourself an artist?**
+
+**EK:** Art to me often has an intellectual component. I think of food preparation as a craft–I don’t think of it as art.
+
+**RG:** My personal approach to food is more of a craftsman. I like having my tools in hand, sort of creating and building, and my approach is much more trial and error. It’s part social scientist, and part repair person or builder. I put food out, and wait for the reaction, and see what we can push, what we can improve.
+
+![https://s3-us-west-2.amazonaws.com/public.notion-static.com/98d6f347-ca2d-47b7-bf48-47511630182f/maarten-van-den-heuvel-400626-unsplash.jpg](https://s3-us-west-2.amazonaws.com/public.notion-static.com/98d6f347-ca2d-47b7-bf48-47511630182f/maarten-van-den-heuvel-400626-unsplash.jpg)
+
+In the Getty Center auditorium for the recent “There Will Be Food“ panel.
+
+**JG:** I’m a writer. Some people can call writers artists, some people cannot. In terms of food, there are people who approach cuisine from an art angle. Carlos Salgado is astonishing that way. His food is rooted in Mexican flavors, but there’s this level of abstraction in his food. Is it art as opposed to food? No, it’s food, but it’s being approached in a different way.
+
+**CS:** The highest point in my life is being with close family and friends, in the backyard over a fire, cooking over the course of many hours, sitting under the sky, and just filling this space with so much warmth. When I’m cooking there, I feel much more like an artist than when I worked in the highest-concept restaurants. They are like museums of food, accessible only with a certain level of literacy on the part of the diner, with a certain level of cultural experience and background.
+
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
